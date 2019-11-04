@@ -39,16 +39,6 @@ int main() {
    * TODO: Initialize the pid variable.
    */
 
-
-  
-  // if(twiddle == true) {
-  //   pid.Init(p[0],p[1],p[2]);
-  // }else {
-  //   pid.Init(0.06, 0.00031, 1.29);
-  //   //pid.Init(0.05, 0.0001, 1.5);
-  // }
-  //pid.Init(0.134611, 0.000270736, 3.05349);
-  //pid.Init(0.05, 0.0001, 1.5);
   pid.Init(0.15, 0.00031, 1.29);
 
 
